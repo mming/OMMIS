@@ -1,0 +1,19 @@
+from random import randint
+
+face = randint(1,8)
+
+
+if face == 7:
+    result='add beer'
+
+elif face ==8:
+    result = "drink half"
+elif face == 9:
+    result = 'all drink,cheers!'
+else:
+    result = 'next one shake'
+
+print(result)
+
+
+#若16行没有print而把print加载7、10、14行的话，执行的时候不会有结果，没有任何执行的需求
