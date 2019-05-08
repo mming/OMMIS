@@ -1,0 +1,8 @@
+
+year = int(input('请输入年份:'))
+is_leap = year % 4 == 0 and year % 100 != 0 or year % 400 == 0
+print(is_leap)
+
+#mac os 的时候，用了python 命令去执行 py文件，提示错误 SyntaxError: Non-ASCII character '\xe8' in file test2.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+(base) ryanleedeAir:python ryanlee$ python3 test2.py  
+#记得需要用 python3 命令执行 py文件
